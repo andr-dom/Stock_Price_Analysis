@@ -6,7 +6,7 @@ import seaborn as sns
 import plotly.express as px
 import os
 
-# Rutas relativas (funcionan tanto local como en Streamlit Cloud) ──
+# ── Rutas relativas (funcionan tanto local como en Streamlit Cloud) ──
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "individual_stocks_5yr")
 
@@ -26,7 +26,7 @@ all_data['date'] = pd.to_datetime(all_data['date'])
 
 # ── Page config ──
 st.set_page_config(page_title="Stock Market Case Study", layout="wide")
-st.title("📈 Tech Stocks Analysis Dashboard")
+st.title("Tech Stocks Analysis Dashboard")
 
 # ── Sidebar ──
 tech_list = all_data['Name'].unique()
