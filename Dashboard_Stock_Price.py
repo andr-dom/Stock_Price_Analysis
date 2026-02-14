@@ -81,5 +81,4 @@ fig5, ax = plt.subplots()
 sns.heatmap(closing_price.corr(), annot=True, cmap="coolwarm", ax=ax)
 st.pyplot(fig5)
 
-st.markdown("---")
-st.markdown("***Note:*** This dashboard provides basic technical analysis of major tech stocks using Python and Streamlit.")
+
