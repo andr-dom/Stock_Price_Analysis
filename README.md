@@ -68,6 +68,7 @@ Stock_Price_Analysis/
 - Analyzed correlations between stocks
 
 ### 2. Streamlit Dashboard (`Dashboard_Stock_Price.py`)
+### Link; https://stockpriceanalysis-rdxhfs7zmxkphvwqbs9zpa.streamlit.app/
 - Built an interactive multi-page dashboard for visual exploration
 - Company selector via sidebar
 - Dynamic resampling options (Monthly / Quarterly / Yearly)
@@ -75,7 +76,7 @@ Stock_Price_Analysis/
 ---
 
 ## Dashboard Features
-
+### Link; https://stockpriceanalysis-rdxhfs7zmxkphvwqbs9zpa.streamlit.app/
 | # | Visualization | Description |
 |---|--------------|-------------|
 | 1 | **Closing Price Over Time** | Historical price trend for selected stock |
